@@ -1,5 +1,11 @@
-def replace_spaces():
-    pass #TODO:
+def replace_spaces(str, punc):
+    result = ""
+    for char in str:
+        if char == " ":
+            result += punc
+        else:
+            result += char
+    return result
 
 
 
